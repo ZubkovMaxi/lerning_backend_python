@@ -26,5 +26,5 @@ def nearest(array: str) -> str:
         C_nearet_zero.append(b)
     return ' '.join(map(str, C_nearet_zero))
 
-print(nearest('0 1 2 77 33 3 0 0 7 0'))
-
+array = input('Ввод номеров домов и пустых участков ')
+print(nearest(array=array))
